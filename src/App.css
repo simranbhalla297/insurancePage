@@ -196,6 +196,12 @@ h2 {
   width: 80%;
   margin: auto;
 }
+.header-first {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: bold;
+  font-family: "DM Serif Display";
+}
 .footer {
   background-color: hsl(0, 0%, 98%);
   background-image: url("./images/bg-pattern-footer-desktop.svg");
@@ -249,11 +255,12 @@ h2 {
     min-width: 100%;
   }
   .header-left {
-    margin: 40px 4%;
-    width: 400px;
+    margin: 20px 4%;
+    width: 200px;
     padding-top: 20px;
     max-width: 100%;
     min-width: 100%;
+    text-align: center;
   }
   .bgleft {
     display: none;
