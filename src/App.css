@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=DM+Serif+Display|Karla:400,700&display=swap");
+
 * {
   padding: 0;
   margin: 0;
@@ -11,7 +12,6 @@ body {
 
   font-family: "Karla", sans-serif;
   margin: 0;
-  overflow-x: hidden;
 }
 h1,
 h2 {
@@ -254,13 +254,18 @@ h2 {
     max-width: 100%;
     min-width: 100%;
   }
+  .header-first {
+    font-size: 40px;
+    line-height: 1;
+    font-weight: bold;
+    font-family: "DM Serif Display";
+  }
   .header-left {
-    margin: 20px 4%;
+    margin: 0px;
     width: 200px;
-    padding-top: 20px;
+    padding: 10px;
     max-width: 100%;
     min-width: 100%;
-    text-align: center;
   }
   .bgleft {
     display: none;
@@ -306,7 +311,7 @@ h2 {
   .ivan-from-peru {
     margin-bottom: 0px;
     padding-top: 0;
-    padding-top: 2%;
+
     width: 100%;
   }
   .blog {
@@ -314,6 +319,9 @@ h2 {
   }
   .footer {
     margin-top: 20%;
+  }
+  .row {
+    text-align: center;
   }
   .navbar {
     position: relative;
