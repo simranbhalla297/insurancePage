@@ -306,11 +306,24 @@ h2 {
   .ivan-from-peru {
     margin-bottom: 0px;
     padding-top: 0;
+    padding-top: 2%;
+    width: 100%;
   }
   .blog {
     text-align: center;
   }
   .footer {
     margin-top: 20%;
+  }
+  .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+
+    margin-bottom: -20%;
+    z-index: 2;
   }
 }
